@@ -5,10 +5,10 @@ class Home extends Component {
     constructor(props){
         super(props);
         this.state = {
-            img: props.img,
-            price: props.price,
-            bedrooms: props.bedrooms,
-            sqft: props.sqft,
+            img: this.props.img,
+            price: this.props.price,
+            bedrooms: this.props.bedrooms,
+            sqft: this.props.sqft,
             isLoaded: false,
         };
     }
@@ -16,11 +16,11 @@ class Home extends Component {
     render() {
         return (
             <div className="home">
-                <div><img src={this.img} className="homeImg" alt="image of home"/></div>
+                <div><img src={this.state.img} className="homeImg" alt="image of home"/></div>
                 <div className="homeDetails">
-                    <div className="homePrice">{this.price}</div>
-                    <div className="homeBedrooms">{this.bedrooms}</div>
-                    <div className="homeSqft">{this.sqft}</div>
+                    <div className="homePrice">{this.state.price}</div>
+                    <div className="homeBedrooms">{this.state.bedrooms}</div>
+                    <div className="homeSqft">{this.state.sqft}</div>
                 </div>
             </div>
         );
