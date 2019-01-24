@@ -1,0 +1,12 @@
+[
+    { "image" : "images/houseimages.png", "bedrooms" : 4, "price" : 390000, "sqft" : 2400 },
+    { "image" : "images/houseimages.png", "bedrooms" : 2, "price" : 150000, "sqft" : 1500 },
+    { "image" : "images/houseimages.png", "bedrooms" : 3, "price" : 175000, "sqft" : 2000 },
+    { "image" : "images/houseimages.png", "bedrooms" : 5, "price" : 360000, "sqft" : 3200 },
+    { "image" : "images/houseimages.png", "bedrooms" : 1, "price" : 60000, "sqft" : 800 },
+    { "image" : "images/houseimages.png", "bedrooms" : 4, "price" : 355000, "sqft" : 3100 },
+    { "image" : "images/houseimages.png", "bedrooms" : 5, "price" : 800000, "sqft" : 3500 },
+    { "image" : "images/houseimages.png", "bedrooms" : 3, "price" : 350000, "sqft" : 2500 },
+    { "image" : "images/houseimages.png", "bedrooms" : 2.5, "price" : 150000, "sqft" : 3000 },
+    { "image" : "images/houseimages.png", "bedrooms" : 3.5, "price" : 375000, "sqft" : 2700 }
+]
