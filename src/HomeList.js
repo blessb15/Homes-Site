@@ -4,10 +4,14 @@ import Home from './Home.js';
 
 class HomeList extends Component {
 
+    displayBeds(event){
+
+    }
+
     render() {
         return (
             <div id="HomeList">
-                {Homes.map((home, index) => {
+                { Homes.map((home, index) => {
                     return <Home img={home.image} price={home.price} bedrooms={home.bedrooms} sqft={home.sqft} />
                 })}
             </div>

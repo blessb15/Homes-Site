@@ -9,7 +9,6 @@ class Home extends Component {
             price: this.props.price,
             bedrooms: this.props.bedrooms,
             sqft: this.props.sqft,
-            isLoaded: false,
         };
     }
 

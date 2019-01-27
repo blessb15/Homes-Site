@@ -6,6 +6,9 @@ class Filter extends Component {
     filterBeds(event){
 
     }
+    clearFilter(event){
+
+    }
     render() {
         return (
             <div className="userInputDiv">
@@ -38,6 +41,18 @@ class Filter extends Component {
                 <input
                     type="tel"
                     id="priceMax"
+                />
+                <input
+                    type="button"
+                    id="applyButton"
+                    value="APPLY"
+                    onClick={this.filterBeds.bind(this)}
+                />
+                <input
+                    type="button"
+                    id="clearButton"
+                    value="X"
+                    onClick={this.clearFilter.bind(this)}
                 />
             </div>
         );
